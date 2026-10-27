@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | LearnTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <a href="index.html" class="logo">📚 LearnTrack</a>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="benefits.html">Benefits</a>
+        <a href="interests.html">Interests</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main class="page-container">
+    <section class="hero">
+        <p class="tag">LET'S CONNECT</p>
+        <h1>Contact LearnTrack ✉️</h1>
+        <p>Have a question or an idea? Send us a message.</p>
+    </section>
+
+    <section class="content-card contact-card">
+        <form id="contactForm">
+            <label for="contactName">Your name</label>
+            <input type="text" id="contactName" required
+                   placeholder="Enter your name">
+
+            <label for="contactEmail">Email address</label>
+            <input type="email" id="contactEmail" required
+                   placeholder="you@example.com">
+
+            <label for="contactSubject">Subject</label>
+            <input type="text" id="contactSubject" required
+                   placeholder="What is your message about?">
+
+            <label for="contactMessage">Message</label>
+            <textarea id="contactMessage" rows="5" required
+                      placeholder="Write your message here"></textarea>
+
+            <button type="submit" class="page-button">Prepare Message</button>
+        </form>
+
+        <p id="contactStatus" class="results" aria-live="polite"></p>
+    </section>
+</main>
+
+<footer>© 2026 LearnTrack | We welcome your ideas</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

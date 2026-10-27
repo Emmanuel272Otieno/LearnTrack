@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interests | LearnTrack</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <a href="index.html" class="logo">📚 LearnTrack</a>
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="benefits.html">Benefits</a>
+        <a href="interests.html">Interests</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main class="page-container">
+    <section class="hero">
+        <p class="tag">EXPLORE WHAT YOU LOVE</p>
+        <h1>Your Learning Interests 🎯</h1>
+        <p>Choose the topics you would like to explore.</p>
+    </section>
+
+    <section class="content-card">
+        <h2>Select your interests</h2>
+        <p>You can choose more than one.</p>
+
+        <form id="interestsForm" class="interest-list">
+            <label><input type="checkbox" name="interest" value="Web Development"> 💻 Web Development</label>
+            <label><input type="checkbox" name="interest" value="Art and Design"> 🎨 Art and Design</label>
+            <label><input type="checkbox" name="interest" value="Science"> 🔬 Science</label>
+            <label><input type="checkbox" name="interest" value="Environment"> 🌱 Environment</label>
+            <label><input type="checkbox" name="interest" value="Business"> 💼 Business</label>
+            <label><input type="checkbox" name="interest" value="Communication"> 🗣️ Communication</label>
+
+            <button type="submit" class="page-button">Save My Interests</button>
+        </form>
+
+        <div id="interestResults" class="results" aria-live="polite"></div>
+    </section>
+</main>
+
+<footer>© 2026 LearnTrack | Follow your curiosity</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
